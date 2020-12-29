@@ -1,0 +1,287 @@
+button, form#searchform {
+  width: 150px;
+	display: inline-block;
+	margin: 0 auto;
+  height: 60px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5d300), to(#efbc00));
+  background-image: linear-gradient(#f5d300, #efbc00);
+  border: 4px solid #fff8ab;
+  color: #612a0c;
+  font-size: 14px;
+}
+
+button a {
+  color: #612a0c;
+  font-size: 14px;
+}
+form#searchform input {
+	text-align: center;
+}
+.main_btn a {
+  color: #612a0c !important;
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  vertical-align: middle;
+  text-align: center;
+  background-image: url("../img/bg2.png");
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+body img.titleimg {
+  width: 80%;
+}
+
+body #pieChart {
+  background-color: white !important;
+  border: 5px solid #333 !important;
+  height: 40vw !important;
+  width: 40vw !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important;
+}
+
+body table {
+  table-layout: fixed;
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  width: 50%;
+}
+body table.tables_main {
+  table-layout: fixed;
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  width: 25%;
+}
+@media all and (max-width: 2150px) {
+body table.tables_main {
+  width: 33%;
+}
+}
+@media all and (max-width: 1600px) {
+.titletext{
+font-size: 22px !important;
+}
+.data_img{
+width: 40px !important;
+}
+body table td {
+word-break: break-all;
+}
+}
+@media all and (max-width: 1530px) {
+body table.tables_main {
+width: 50%
+}
+
+}
+body #table div {
+  width: initial !important;
+word-break: break-all;
+}
+
+body button.main_btn a {
+  color: black;
+  text-decoration: none;
+}
+
+@media all and (max-width: 1100px) {
+  body table {
+    width: 90%;
+  }
+body table.tables_main {
+  width: 90%;
+}
+}
+
+@media all and (max-width: 1400px) {
+  body #pieChart {
+    background-color: white !important;
+    border: 5px solid #333 !important;
+    height: 55vw !important;
+    width: 55vw !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+  }
+}
+
+@media all and (max-width: 600px) {
+  body #pieChart {
+    background-color: white !important;
+    border: 5px solid #333 !important;
+    height: 70vw !important;
+    width: 70vw !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+  }
+  body table tr {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    max-width: 310px !important;
+  }
+}
+
+.fig_tbl_td {
+  width: 200px;
+}
+
+.tables {
+  padding: 10px;
+}
+
+.tables:hover {
+  cursor: pointer;
+}
+
+.tables tr:not(:first-child):hover {
+  cursor: pointer;
+}
+
+tr.is-dimmed:not(:first-child) td:not(:first-child):hover {
+  background-color: grey;
+  color: white;
+}
+
+.is-dimmed2:hover {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+
+@media all and (max-width: 600px) {
+  .summary {
+    width: 500px !important;
+  }
+}
+@media all and (max-width: 610px) {
+	.titletext{
+		font-size: 25px !important;
+}
+	.data_img{
+width: 40px !important;
+	}
+}
+@media all and (max-width: 520px) {
+	.titletext{
+		font-size: 20px !important;
+}
+	.data_img{
+width: 30px !important;
+	}
+}
+@media all and (max-width: 420px) {
+	.titletext{
+		font-size: 17.5px !important;
+}
+	.data_img{
+width: 25px !important;
+	}
+}
+@media all and (max-width: 350px) {
+	.titletext{
+		font-size: 15px !important;
+}
+	.data_img{
+width: 25px !important;
+	}
+}
+@media all and (max-width: 580px) {
+  .res_td {
+    font-size: 2vw;
+  }
+}
+
+.summary {
+  width: 600px;
+  display: inherit;
+  font-size: 10px;
+  height: 70px;
+}
+
+.descr_view {
+  max-width: 600px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.listen_pls:hover {
+  background-color: grey;
+  color: white;
+}
+
+.create {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 767px)
+.elementor:not(.elementor-edit-area-active) .elementor-hidden-phone {
+    display: block !important;
+}
+form#searchform{
+	display: block;
+	  width: 300px;
+}
+form#searchform .textfield {
+	width: 90%;
+}
+.submit2{
+width: 90%;
+height: 30px;
+}
+.textfield{
+	height: 26px;
+}
+@media all and (max-width: 626px) {
+.res{
+font-size: 12px;
+}
+.res2{
+font-size: 10px;
+}
+}
+@media all and (max-width: 535px) {
+.res{
+font-size: 10px;
+}
+.res2{
+font-size: 8px;
+}
+}
+@media all and (max-width: 440px) {
+.res{
+font-size: 7px;
+}
+.res2{
+font-size: 6px;
+}
+}
+@media all and (max-width: 335px) {
+.res{
+font-size: 6px;
+}
+.res2{
+font-size: 5px;
+}
+}
+/*# sourceMappingURL=style.css.map */

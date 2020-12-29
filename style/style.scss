@@ -1,0 +1,154 @@
+@import "things-canvas-table";
+@import "buttons";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    vertical-align: middle;
+    text-align: center;
+    background-image: url("../img/bg2.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+    img.titleimg{
+        width: 80%;
+    }
+    #pieChart {
+        background-color: white !important;
+        border: 5px solid #333 !important;
+        height: 40vw !important;
+        width: 40vw !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block !important;
+    }
+
+    table {
+        table-layout: fixed;
+        background-color: white;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+        width: 50%;
+        td {
+            width: 200px;
+        }
+    }
+    #table {
+        div {
+            width: initial !important;
+        }
+    }
+    button.main_btn {
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    }
+    @media all and (max-width: 1000px) {
+    table{
+        width: 90%;
+    }
+}
+    @media all and (max-width: 1400px) {
+        #pieChart {
+            background-color: white !important;
+            border: 5px solid #333 !important;
+            height: 55vw !important;
+            width: 55vw !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            display: block !important;
+        }
+
+    }
+    @media all and (max-width: 600px) {
+        #pieChart {
+            background-color: white !important;
+            border: 5px solid #333 !important;
+            height: 70vw !important;
+            width: 70vw !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            display: block !important;
+        }
+        table {
+            tr {
+                margin-right: auto !important;
+                margin-left: auto !important;
+                max-width: 310px !important;
+            }
+        }
+    }
+}
+
+.fig_tbl_td {
+    width: 200px;
+}
+.tables {
+    padding: 10px;
+    &:hover {
+        cursor: pointer;
+    }
+    tr {
+        &:not(:first-child):hover {
+            cursor: pointer;
+        }
+    }
+}
+tr.is-dimmed:not(:first-child) {
+    td:not(:first-child) {
+        &:hover {
+            background-color: grey;
+            color: white;
+        }
+    }
+}
+.is-dimmed2 {
+        &:hover {
+            background-color: grey;
+            color: white;
+            cursor: pointer;
+        }
+    
+}
+@media all and (max-width: 600px) {
+    .summary{
+        width: 500px !important;
+    }
+
+}
+@media all and (max-width: 580px) {
+.res_td{
+    font-size: 2vw;
+}
+}
+.summary{
+width: 600px;
+display: inherit;
+font-size: 10px;
+height: 70px;
+}
+.descr_view{
+    max-width: 600px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.listen_pls{
+    &:hover {
+        background-color: grey;
+        color: white;
+    }
+}
+.create{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.linkspan{
+font-size: 20px;
+}
